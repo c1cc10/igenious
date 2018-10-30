@@ -5,6 +5,8 @@ Easy and simple docker server POC application. To deploy it using docker:
 * download this repository 
 * into the repository directory, build it by command: _docker build -t igenious ._
 * once previous command has been completed, run it: _docker run -p 8888:8888 igenious_
+
+
 Server will be listening on port 8888. 
 You can run basic tests by using file _test.py_ on another command line console. 
 Just type _python3 test.py_. 
